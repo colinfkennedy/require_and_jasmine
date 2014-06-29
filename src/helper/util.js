@@ -1,11 +1,11 @@
-define(["print"], function (print) {
+define(["helper/print"], function (print) {
     return {
-        getHello: function () {
+        getHelloWorld: function () {
             return 'Hello World';
         },
 
         printHelloWorldToConsole: function() {
-            print(this.getHello());
+            print(this.getHelloWorld());
         }
     };
 });
